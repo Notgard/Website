@@ -17,11 +17,19 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
 }
 
+var fullWidth = $(window).width();
 
 function openNav() {
     document.getElementById("mySidenav").style.height = "100%";
+    if (fullWidth >= 330) {
+        document.getElementById("mySidenav").style.display = "block";
+    }
+
 }
 
 function closeNav() {
     document.getElementById("mySidenav").style.height = "0%";
+    if (fullWidth >= 330) {
+        document.getElementById("mySidenav").style.display = "none";
+    }
 }
