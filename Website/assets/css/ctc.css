@@ -1,0 +1,46 @@
+body,
+html {
+    background-image: url(../BakcgorundCtct6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid green;
+    background: black;
+    color: forestgreen;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    background-color: forestgreen;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#subject {
+    color: forestgreen;
+}
+
+.container {
+    background-color: grey;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1380px) {
+    body {
+        overflow-y: scroll;
+    }
+}
