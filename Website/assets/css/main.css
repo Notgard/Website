@@ -383,9 +383,8 @@ dd {
         margin: auto;
         border-bottom-right-radius: 100%;
         border-bottom-left-radius: 100%;
-        margin-right: 10%;
+        margin-right: 20%;
         margin-left: 3%;
-        position: sticky;
     }
     dt {
         font-size: 20px
@@ -485,13 +484,13 @@ dd {
         width: 150px;
         height: 30px;
         left: 0;
-        top: 10px;
+        top: 0px;
         background-color: green;
     }
     .nav-sub .start-1,
-    a:nth-child(2):hover~.animation {
+    .nav-sub a:nth-child(2):hover~.animation {
         width: 150px;
-        top: 10px;
+        top: 0px;
         left: 0;
         background-color: #232B2B;
     }
@@ -525,7 +524,7 @@ dd {
         text-decoration: none;
     }
     .col-m-2 {
-        font-size: 15px;
+        font-size: 11px;
     }
 }
 
@@ -548,5 +547,44 @@ dd {
     }
     .transition {
         height: 110px;
+    }
+    .nav-sub .start,
+    .nav-sub a:nth-child(1):hover~.animation {
+        width: 150px;
+        height: 30px;
+        left: 0;
+        top: 17px;
+        background-color: green;
+    }
+    .nav-sub .start-1,
+    .nav-sub a:nth-child(2):hover~.animation {
+        width: 150px;
+        top: 17px;
+        left: 0;
+        background-color: #232B2B;
+    }
+    .nav-sub .start-2,
+    .nav-sub a:nth-child(3):hover~.animation {
+        width: 150px;
+        left: 0;
+        height: 45px;
+        top: 60px;
+        background-color: green;
+    }
+    .nav-sub .start-3,
+    .nav-sub a:nth-child(4):hover~.animation {
+        width: 150px;
+        height: 30px;
+        top: 115px;
+        left: 0;
+        background-color: #232B2B;
+    }
+    .nav-sub .start-4,
+    .nav-sub a:nth-child(5):hover~.animation {
+        width: 100px;
+        height: 40px;
+        top: 150px;
+        left: 10px;
+        background-color: green;
     }
 }
