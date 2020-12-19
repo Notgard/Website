@@ -423,7 +423,7 @@ dd {
     }
     .col-m-4 {
         display: inline-block;
-        font-size: 15px;
+        font-size: 13px;
     }
     #seperate {
         display: initial;
@@ -540,7 +540,7 @@ dd {
         font-size: 12px;
     }
     #mySidenav {
-        padding: auto;
+        display: none;
     }
     #wooper {
         margin: 0;
