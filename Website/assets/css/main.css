@@ -456,6 +456,7 @@ dd {
         z-index: 1;
         color: white;
         cursor: pointer;
+        margin-bottom: 5px;
     }
     .nav-sub .animation {
         position: absolute;
@@ -480,7 +481,7 @@ dd {
         width: 60px;
     }
     .nav-sub .start,
-    a:nth-child(1):hover~.animation {
+    .nav-sub a:nth-child(1):hover~.animation {
         width: 150px;
         height: 30px;
         left: 0;
@@ -488,14 +489,14 @@ dd {
         background-color: green;
     }
     .nav-sub .start-1,
-    .nav-sub a:nth-child(2):hover~.animation {
+    .sidenav a:nth-child(2):hover~.animation {
         width: 150px;
         top: 0px;
         left: 0;
         background-color: #232B2B;
     }
     .nav-sub .start-2,
-    a:nth-child(3):hover~.animation {
+    .sidenav a:nth-child(3):hover~.animation {
         width: 150px;
         left: 0;
         height: 45px;
@@ -503,7 +504,7 @@ dd {
         background-color: green;
     }
     .nav-sub .start-3,
-    a:nth-child(4):hover~.animation {
+    .sidenav a:nth-child(4):hover~.animation {
         width: 150px;
         height: 30px;
         top: 100px;
@@ -511,7 +512,7 @@ dd {
         background-color: #232B2B;
     }
     .nav-sub .start-4,
-    a:nth-child(5):hover~.animation {
+    .sidenav a:nth-child(5):hover~.animation {
         width: 100px;
         height: 40px;
         top: 130px;
@@ -553,7 +554,7 @@ dd {
         width: 150px;
         height: 30px;
         left: 0;
-        top: 17px;
+        top: 15px;
         background-color: green;
     }
     .nav-sub .start-1,
